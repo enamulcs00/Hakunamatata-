@@ -12,7 +12,7 @@ export class AddEditComponent implements OnInit {
     isAddMode: boolean;
     loading = false;
     submitted = false;
-
+    IsModifyPassword:boolean = false
     constructor(
         private formBuilder: FormBuilder,
         private route: ActivatedRoute,
